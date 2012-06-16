@@ -357,7 +357,7 @@ struct mntent* getmntent(FILE* f)
 
 char* ttyname(int fd)
 {
-    fprintf(stderr, "FIX ME! implement ttyname() %s:%d\n", __FILE__, __LINE__);
+    //fprintf(stderr, "FIX ME! implement ttyname() %s:%d\n", __FILE__, __LINE__);
     return NULL;
 }
 
